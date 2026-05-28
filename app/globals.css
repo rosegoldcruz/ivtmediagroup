@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  --background: #050505;
+  --foreground: #f4e3b2;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Inter", "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+.vault-grid {
+  background-image: linear-gradient(rgba(185, 147, 63, 0.14) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(185, 147, 63, 0.14) 1px, transparent 1px);
+  background-size: 52px 52px;
+  mask-image: radial-gradient(circle at center, black 30%, transparent 85%);
+}
